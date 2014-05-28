@@ -1,0 +1,19 @@
+<div class="container-fluid">
+
+  <% if session[:username] %>
+
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label for="tweet">Send A Tweet</label>
+      <input class="form-control" placeholder="Enter a 140 character tweet" type="text" name="tweet">
+      <input id="tweet-submit" type="submit" value="Tweet It!" class="btn btn-primary ">
+    </form>
+    <% end %>
+
+    <% if @access_token || session[:username] %>
+    <button id="sign-out" type="button" class="btn btn-danger">Sign Out</button>
+    <% else %>
+    <button id="sign-in" type="button" class="btn btn-danger">Sign In</button>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+th {
+  text-align: left;
+}
+
+#tweeting{
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+#tweeting h1{
+  color: white;
+  text-align: center;
+}
+
+.container-fluid{
+  width: 400px;
+  margin-top: 15%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+#sign-in{
+  margin-top: 10px;
+  float: right;
+}
+
+#sign-out{
+  margin-top: 10px;
+  float: right;
+}
+
+#tweet-submit{
+  margin-top: 10px;
+}
+
+#logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+#wrapper{
+  width: 100%;
+}
+
+.navbar-inverse{
+  background-color: #00E0FF;
+  border-color: #00E0FF;
+}
